@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests/.setup.js tests/**/*.test.js --compilers js:babel-core/register",
+
     "start": "webpack-dev-server --content-base build",
     "build": "webpack"
   },
