@@ -7,8 +7,8 @@ export default class Sample extends React.Component {
   render() {
     return (
       <div>
-        <h3 className="magical">hola</h3>
+        <h3 className="magical" onClick={() => 'ere'}>hola</h3>
       </div>
-    )
+    );
   }
 }

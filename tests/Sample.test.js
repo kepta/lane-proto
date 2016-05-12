@@ -1,10 +1,9 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import chai, { expect } from 'chai';
 import chaiEnzyme from 'chai-enzyme';
 chai.use(chaiEnzyme());
 // import sinon from 'sinon';
-import { mount } from 'enzyme';
 import Sample from '../app/Sample';
 
 describe('<Sample />', () => {
